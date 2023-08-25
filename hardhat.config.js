@@ -1,4 +1,5 @@
 require('dotenv').config()
+require('@nomiclabs/hardhat-etherscan')
 
 const { json } = require("hardhat/internal/core/params/argumentTypes");
 
